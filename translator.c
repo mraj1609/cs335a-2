@@ -1,5 +1,7 @@
 #include "iostream.h"
 #include "stdio.h"
+enum InstrType{ Assignment , Function ,Jump , Pointer , Indexed_Ass};
+
 //Data structure to hold 3ac instruction
 typedef struct {
 InstrType typ; // assign, goto...
