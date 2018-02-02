@@ -11,4 +11,10 @@ Operator op
 } Instruction3AC;
 
 //Data structure to hold symbol table
+FILE *fptr ;
+if(fptr = fopen("../IL_Program.txt","r")==NULL)
+{
+printf("Error in opening IL_Program.txt . Aborting....");
+exit(0);
+}
 
